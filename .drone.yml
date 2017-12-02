@@ -1,6 +1,6 @@
 pipeline:
   backend:
-    image: golang
+    image: gohorse
     commands:
       - go build
       - go test
